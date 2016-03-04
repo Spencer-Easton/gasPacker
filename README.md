@@ -11,6 +11,16 @@ How to build
  It can be compiled with the dmd compiler found at [http://dlang.org](http://dlang.org/download.html).  
  To compile use `dmd gasPacker.d`. 
 
+ Dependencies  
+    
+  This tool is more of a script as it depends two other projects.  It assumes both gasIO and esparse(part of esprima) are in your PATH.  
+  
+  1) gasIO:  https://github.com/Spencer-Easton/gasIO  
+  gasIO can be built following the instruction on the github page.  
+  
+  2) esprima: https://github.com/jquery/esprima  
+  npm install -g esprima  
+
  Basic Usage  
    
      gasPacker options  
@@ -28,13 +38,5 @@ Command Line Example
   `check the example folder for the output of this operation`  
   
   
-  Dependencies  
-    
-  This tool is more of a script as it depends two other projects.  It also assumes both gasIO and esparse(part of esprima) are in your PATH.  
-  
-  1) gasIO:  https://github.com/Spencer-Easton/gasIO  
-  gasIO can be built following the instruction on the github page.  
-  
-  2) esprima: https://github.com/jquery/esprima  
-  npm install -g esprima  
+ 
   
